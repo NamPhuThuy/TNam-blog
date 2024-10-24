@@ -19,7 +19,7 @@ locale                   : "en-US" #vi-VN
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "NamPhuThuy's blog"
 title_separator          : "-"
-subtitle                 : By game programmer for game programmers
+subtitle                 : By game developer for game developers
 name                     : "Trinh Nam"
 description              : "This is a website of an amazing person"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
