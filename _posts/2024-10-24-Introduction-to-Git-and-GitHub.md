@@ -11,6 +11,14 @@ Understand what is Git and GitHub?
 # What is Git and Github?
 <div style="text-align: center"><img src="../assets/images/Git-n-Github/git-github.png" alt="Git n Github" width="350px" ></div>
 
+HIHI
+
+{% capture fig_img %}
+![Foo]({{ "../assets/images/Git-n-Github/git-github.png" | relative_url }})
+{% endcapture %}
+
+
+
 - Git:
   - A **distributed version control system (VCS)** that tracking changes in source code during software development. 
   - It allows you to manage your codebase efficiently, collaborate with others, and revert to previous versions if needed.
