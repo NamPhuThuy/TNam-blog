@@ -11,6 +11,14 @@ last_modified_at: 2024-10-24T08:06:00+07:00
 <div style="text-align: center"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/Git-n-Github/git-github.png" alt="Git n Github" width="350px" ></div>
 
 
+HIHI
+
+{% capture fig_img %}
+![Foo]({{ "../assets/images/Git-n-Github/git-github.png" | relative_url }})
+{% endcapture %}
+
+
+
 - Git:
   - Hệ thống kiểm soát phiên bản phân tán **(DVCS - distributed version control system)** 
   - Theo dõi những thay đổi trong mã nguồn (source code) trong quá trình phát triển phần mềm.
