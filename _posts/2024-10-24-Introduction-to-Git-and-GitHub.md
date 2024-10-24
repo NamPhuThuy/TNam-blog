@@ -9,7 +9,7 @@ last_modified_at: 2024-10-24T08:06:00-05:00
 Understand what is Git and GitHub?
 
 # What is Git and Github?
-![](../assets/images/Git-n-Github/git-github.png)
+<div style="text-align: center"><img src="../assets/images/Git-n-Github/git-github.png" alt="Git n Github" width="350px" ></div>
 
 - Git:
   - A **distributed version control system (VCS)** that tracking changes in source code during software development. 
@@ -29,7 +29,7 @@ Understand what is Git and GitHub?
 # Git vs. Other Version Control Systems
 
 # Basic Git Workflow
-![](../assets/images/Git-n-Github/git-workflow.png)
+<div style="text-align: center"><img src="../assets/images/Git-n-Github/git-workflow.png" alt="Git n Github" width="350px"></div>
 
 - Working directory: where we edit files
 - Staging area: a temporary location where files are kept for the next commit
@@ -37,7 +37,7 @@ Understand what is Git and GitHub?
 - Remote repository: the remote server that stores the code
 
 ## Git workflow when teamwork
-![](../assets/images/Git-n-Github/git-workflow-teamwork.png)
+<div style="text-align: center;"><img src="../assets/images/Git-n-Github/git-workflow-teamwork.png" alt="Git n Github" width="350px"></div>
 
 # References 
 
