@@ -130,10 +130,10 @@ author:
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://www.facebook.com/profile.php?id=61554875248180"
+      url: "https://www.facebook.com/profile.php?id=61554875248180"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/NamPhuThuy"
+      url: "https://github.com/NamPhuThuy"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -146,10 +146,10 @@ footer:
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://www.facebook.com/profile.php?id=61554875248180"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/NamPhuThuy"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
