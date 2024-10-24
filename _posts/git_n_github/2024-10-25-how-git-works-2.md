@@ -1,9 +1,9 @@
 ---
-title:  "How Git Works"
+title:  "How Git Works 2"
 search: true
 categories: 
   - Git n Github
-last_modified_at: 2024-10-24T08:06:00-05:00
+last_modified_at: 2024-10-25T08:06:00-05:00
 ---
 
 Understand how git works
