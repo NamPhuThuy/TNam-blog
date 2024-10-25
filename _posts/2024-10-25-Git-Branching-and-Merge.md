@@ -1,20 +1,17 @@
 ---
-title:  "Git n Github 01: Introduction to Git and GitHub"
+title:  "Git n Github 02: Git Branching and Merge"
 search: true
 categories: 
   - Git n Github
-last_modified_at: 2024-10-24T08:06:00-05:00
+last_modified_at: 2024-10-25T08:06:00-05:00
 ---
 
-Understand what is Git and GitHub?
+How to working with branches
 
-# What is Git and Github?
+# What is Branching?
 <div style="text-align: center"><img src="../assets/images/Git-n-Github/git-github.png" alt="Git n Github" width="350px" ></div>
 
-{% capture fig_img %}
-![Foo]({{ "../assets/images/Git-n-Github/git-github.png" | relative_url }})
-{% endcapture %}
-
+**Branching** means diverging from the mainline and continue to work separately without messing with the mainline. In Git, a branch is simply a reference to the commit, where the following commits will be attached.
 
 
 - Git:
@@ -70,8 +67,7 @@ git add <filename>: add files to the staging area
 ```
 git add .: add all changed files to the staging area 
 ```
-- **Commit changes**: Create a snapshot of the staged changes  
-When you make a commit, Git stores a commit object that contains a pointer to the snapshot of the content you staged. This object also contains the author’s name and email address, the message that you typed
+- **Commit changes**: Create a snapshot of the staged changes
 ```
 git commit -m "<commit message>"
 ```
@@ -82,5 +78,6 @@ git log
 
 # References 
 
-<a href = "https://www.geeksforgeeks.org/difference-between-git-and-github">Difference Between Git and GitHub</a>  - Geeksforgeeks  
+<a href = "https://www.geeksforgeeks.org/introduction-to-git-branch">Introduction to Git Branch
+</a>  - Geeksforgeeks  
 <a href = "https://blog.bytebytego.com/i/95179881/how-does-git-work"> How does git work? </a> - ByteByteGo
