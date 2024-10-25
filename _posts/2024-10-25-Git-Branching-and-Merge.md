@@ -13,31 +13,36 @@ How to working with branches
 
 **Branching** means diverging from the mainline and continue to work separately without messing with the mainline. In Git, a branch is simply a reference to the commit, where the following commits will be attached.
 
+**Why use branches?** Branches allow you to work on different features or bug fixes simultaneously without affecting the main codebase.
 
-- Git:
-  - A **distributed version control system (VCS)** that tracking changes in source code during software development. 
-  - It allows you to manage your codebase efficiently, collaborate with others, and revert to previous versions if needed.
+## Branching example
+- **Creating a new branch**: 
+```
+git branch <branch_name>
+```
 
-- GitHub:
-  - web-based Git repository hosting service, which offers all of the distributed revision control and source code management (SCM) functionality of Git as well as adding its own features. 
+- **Switch to the new branch**:  
+Sử dụng ```git checkout <branch_name>```  
+hoặc ```git switch <branch_name>```  
 
-|  | Git | Github |
-|---|---|---|
-| 1 | software | service |
-| 2 | command-line interface (CLI) | graphical user interface (GUI)|
-| 3 | installed locally on the system | hosted on the web |
-| 4 | manage source code history | hosting service for Git repositories |
+Switching to a branch: Use git checkout <branch_name> to switch to a different branch.
 
+|         | git switch                                | git check out                               |
+|---------|-------------------------------------------|---------------------------------------------|
+| Purpose | Branch switching                          | Branch switching, branch creation, file creation | 
+|Uncommitted changes| Automatically **stashes** and **reapply** | Prompts for commit/stash |
 
-# Git vs. Other Version Control Systems
+- **List all branches**  
+```git branch```: List all local branches  
+```git branch -a```: List all local and remote branches
 
-# Basic Git Workflow
-<div style="text-align: center"><img src="../assets/images/Git-n-Github/git-workflow.png" alt="Git n Github" width="350px"></div>
+# How to merge branches?
+When we work together as a team, we will need to combine everybody code into one branch
+- **Merge**  
+```git merge [<branch_name_1> <branch_name_2>,..., <branch_name_n>] ```: merge all the branches in the list into the current branch 
 
-- Working directory: where we edit files
-- Staging area: a temporary location where files are kept for the next commit
-- Local repository: contains the code that has been committed
-- Remote repository: the remote server that stores the code
+[//]: # (<div style="text-align: center"><img src="" alt="Git n Github" width="350px"></div>)
+- **Solve conflicts**
 
 ## Git workflow when teamwork
 <div style="text-align: center;"><img src="../assets/images/Git-n-Github/git-workflow-teamwork.png" alt="Git n Github" width="350px"></div>
@@ -80,4 +85,4 @@ git log
 
 <a href = "https://www.geeksforgeeks.org/introduction-to-git-branch">Introduction to Git Branch
 </a>  - Geeksforgeeks  
-<a href = "https://blog.bytebytego.com/i/95179881/how-does-git-work"> How does git work? </a> - ByteByteGo
+<a href = "https://stackoverflow.com/questions/57265785/whats-the-difference-between-git-switch-and-git-checkout-branch">What's the difference between 'git switch' and 'git checkout' <branch>?</a> - StackOverflow
