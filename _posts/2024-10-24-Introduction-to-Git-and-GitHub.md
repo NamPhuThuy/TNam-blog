@@ -11,8 +11,6 @@ Understand what is Git and GitHub?
 # What is Git and Github?
 <div style="text-align: center"><img src="../assets/images/Git-n-Github/git-github.png" alt="Git n Github" width="350px" ></div>
 
-HIHI
-
 {% capture fig_img %}
 ![Foo]({{ "../assets/images/Git-n-Github/git-github.png" | relative_url }})
 {% endcapture %}
@@ -46,6 +44,39 @@ HIHI
 
 ## Git workflow when teamwork
 <div style="text-align: center;"><img src="../assets/images/Git-n-Github/git-workflow-teamwork.png" alt="Git n Github" width="350px"></div>
+
+# Git basics
+## Preparation
+Download and install Git from official Git website: https://git-scm.com/downloads
+Configure Git:
+```angular2html
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+```
+
+## Basic commands
+- **Create a new directory**: This will be the root of your project.  
+- **Initialize a Git repository**: Navigate to the directory and run:
+```
+git init
+```
+
+- **Create a file**
+- **Add change files to the staging area**
+```angular2html
+git add <filename>: add files to the staging area
+```
+```angular2html
+git add .: add all changed files to the staging area 
+```
+- **Commit changes**: Create a snapshot of the staged changes
+```angular2html
+git commit -m "<commit message>"
+```
+- **View commit history**: Use git log to view the commit history.
+```angular2html
+git log
+```
 
 # References 
 
