@@ -9,8 +9,8 @@ last_modified_at: 2024-10-24T08:06:00-05:00
 Understand what is Git and GitHub?
 
 # What is Git and Github?
-Hi
-![Vienna](/assets/images/Git-n-Github/git-github.png){:height="70%" width="70%"}
+New hi
+![Git and Github](images/Git-n-Github/git-github.png){:height="70%" width="70%"}
 
 <div style="text-align: center"><img src="../assets/images/Git-n-Github/git-github.png" alt="Git n Github" width="350px" ></div>
 
