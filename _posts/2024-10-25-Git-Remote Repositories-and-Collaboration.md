@@ -2,7 +2,7 @@
 title:  "Git n Github 03: Remote Repositories and Collaboration"
 search: true
 categories: 
-  - Git n Github
+  - Git_and_Github
 last_modified_at: 2024-10-25T10:06:00+07:00
 ---
 
