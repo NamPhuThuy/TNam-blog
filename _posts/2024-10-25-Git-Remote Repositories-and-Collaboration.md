@@ -3,7 +3,7 @@ title:  "Git n Github 03: Remote Repositories and Collaboration"
 search: true
 categories: 
   - Git n Github
-last_modified_at: 2024-10-25T10:06:00-05:00
+last_modified_at: 2024-10-25T10:06:00+07:00
 ---
 
 How to working with branches
