@@ -107,7 +107,7 @@ git remote -v
 
 - **Đẩy tài nguyên lên repository**
 ```
-gir push <remote_name> <branch_name>
+git push <remote_name> <branch_name>
 ```
 
 # Tham khảo 
