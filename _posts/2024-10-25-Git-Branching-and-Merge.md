@@ -44,17 +44,23 @@ git branch -a
 - **Gộp (merge) nhánh**  
 ```
 git merge [<branch_name_1> <branch_name_2>,..., <branch_name_n>] 
-``` 
+```
 
-[//]: # (<div style="text-align: center"><img src="" alt="Git n Github" width="350px"></div>)
 - **Solve conflicts**
 
 ## Git workflow when teamwork
 <div style="text-align: center;"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/Git-n-Github/git-workflow-teamwork.png" alt="Git n Github" width="350px"></div>
 
+# Tổng hợp
 
-# References 
+| Lệnh       | Mô tả                   |
+|------------|-------------------------|
+| git branch | Tạo nhánh mới           |
+| git switch | Di chuyển qua nhánh khác|
+| git merge  | Gộp nhánh               |
+
+# Tham khảo 
 
 <a href = "https://www.geeksforgeeks.org/introduction-to-git-branch">Introduction to Git Branch
 </a>  - Geeksforgeeks  
-<a href = "https://stackoverflow.com/questions/57265785/whats-the-difference-between-git-switch-and-git-checkout-branch">What's the difference between 'git switch' and 'git checkout' <branch>?</a> - StackOverflow
+<a href = "https://stackoverflow.com/questions/57265785/whats-the-difference-between-git-switch-and-git-checkout-branch">What's the difference between 'git switch' and 'git checkout'?</a> - StackOverflow

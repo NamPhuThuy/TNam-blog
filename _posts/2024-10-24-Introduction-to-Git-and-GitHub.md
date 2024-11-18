@@ -109,6 +109,24 @@ git remote -v
 ```
 git push <remote_name> <branch_name>
 ```
+# Tổng hợp lệnh
+
+| Lệnh                    | Tác dụng                                            |
+|-------------------------|-----------------------------------------------------|
+| **Cơ bản**              |                                                     |
+| git init                | Khởi tạo git repository ở local (local repo)        |
+| git status              | Kiểm tra trạng thái của local repo                  |
+| git add                 | Thêm file vào staging area                          |
+| git commmit             | Đưa toàn bộ file trong staging area vào 1 commit    |
+| git log                 | Hiển thị thông tin của các commit                   |
+| **Làm việc với remote** |                                                     |
+| git remote add          | Kết nối local repo với remote repo                  |
+| git remote -v           | Kiểm tra những kết nối của local repo               |
+| git push                | Đẩy những commit của nhánh hiện tại lên remote repo |
+| git fetch               ||
+| git pull                ||
+| git clone               ||
+
 
 # Tham khảo 
 
