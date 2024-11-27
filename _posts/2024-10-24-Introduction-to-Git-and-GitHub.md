@@ -48,6 +48,14 @@ git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 ```
 
+- Chuyển **Text editor** mặc định thành Notepad hoặc Visual Studio Code
+```
+git config --global core.editor "\"C:\Windows\System32\notepad.exe\""
+git config --global core.editor "\"C:\Users\<YourName>\AppData\Local\Programs\Microsoft VS Code\code.exe\""
+```
+
+
+
 - **Khởi tạo Git repository**   
 Truy cập tới directory mong muốn và chạy lệnh:
 ```
@@ -109,6 +117,21 @@ git remote -v
 ```
 git push <remote_name> <branch_name>
 ```
+
+- **Clone repository từ remote**
+```
+git clone https://github.com/<your_username>/<repository_name>.git
+```
+
+- **Kéo những commit mới nhất trong nhánh hiện tại từ remote về local**
+```
+git pull
+```
+
+- **Xem thông tin veef về những commit mới trên remote trước khi kéo về**
+```
+git fetch
+```
 # Tổng hợp lệnh
 
 | Lệnh                    | Tác dụng                                            |
@@ -127,6 +150,13 @@ git push <remote_name> <branch_name>
 | git pull                ||
 | git clone               ||
 
+# Một số key words 
+| Key word       | Giải thích |
+|----------------|------------|
+| repository     ||
+| staging area   ||
+|                ||
+| commit message |            |
 
 # Tham khảo 
 
