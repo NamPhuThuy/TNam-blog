@@ -14,7 +14,6 @@ last_modified_at: 2024-10-24T08:06:00+07:00
 - Git:
   - Hệ thống kiểm soát phiên bản phân tán **(DVCS - distributed version control system)** 
   - Theo dõi những thay đổi trong mã nguồn (source code) trong quá trình phát triển phần mềm.
-  - Cho khả năng làm việc nhóm và quay lại các phiên bản trước nếu cần
 
 - GitHub:
   - Dịch vụ lưu trữ **Git-repository** dựa trên nền tảng web
@@ -128,7 +127,7 @@ git clone https://github.com/<your_username>/<repository_name>.git
 git pull
 ```
 
-- **Xem thông tin veef về những commit mới trên remote trước khi kéo về**
+- **Xem thông tin về về những commit mới trên remote trước khi kéo về**
 ```
 git fetch
 ```
@@ -146,14 +145,16 @@ git fetch
 | git remote add          | Kết nối local repo với remote repo                  |
 | git remote -v           | Kiểm tra những kết nối của local repo               |
 | git push                | Đẩy những commit của nhánh hiện tại lên remote repo |
-| git fetch               ||
-| git pull                ||
-| git clone               ||
+| git fetch               | Cập nhật thông tin của remote về local              |
+| git pull                | Kéo những commit từ trên remote về local            |
+| git clone               | Tạo 1 bản sao của remote repo trên local            |
 
 # Một số key words 
+
 | Key word       | Giải thích |
 |----------------|------------|
 | repository     ||
+| local - remote ||
 | staging area   ||
 |                ||
 | commit message |            |
