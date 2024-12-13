@@ -156,7 +156,7 @@ git fetch
 | repository     ||
 | local - remote ||
 | staging area   ||
-|                ||
+| commit         ||
 | commit message |            |
 
 # Tham khảo 
